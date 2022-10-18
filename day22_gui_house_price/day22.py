@@ -7,7 +7,7 @@ app.title('house price predictor')
 
 income=ttk.Variable(app)
 ttk.Label(app,text='Income',padx=15,pady=15).grid(row=0,column=0)
-ttk.Entry(app,textvariable=income,width=10).grid(row=0,column=0)
+ttk.Entry(app,textvariable=income,width=10).grid(row=0,column=1)
 
 house_age=ttk.Variable(app)
 ttk.Label(app,text='House Age',padx=15,pady=15).grid(row=1,column=0)
